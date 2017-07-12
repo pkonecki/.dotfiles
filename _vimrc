@@ -34,7 +34,10 @@ filetype plugin indent on    " required
 nnoremap <F5> :buffers<CR>:buffer<Space>
 set mouse=a
 set nu
-set list lcs=tab:▸\ ,trail:·,nbsp:_   " Show invisible characters
+" set list lcs=tab:▸\ ,trail:·,nbsp:_   " Show invisible characters
+set list
+set lcs=tab:»
+set lcs+=trail:.
 set background=dark
 colorscheme koehler
 let g:airline_powerline_fonts = 1
