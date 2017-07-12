@@ -36,7 +36,7 @@ set mouse=a
 set nu
 " set list lcs=tab:▸\ ,trail:·,nbsp:_   " Show invisible characters
 set list
-set lcs=tab:>
+set lcs=tab:>-
 set lcs+=trail:.
 set background=dark
 colorscheme koehler
